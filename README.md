@@ -47,4 +47,4 @@ Coopy is the Blog Service that is created for practice in Django.
 
 
 [<img src="https://user-images.githubusercontent.com/39425808/84468413-b8592a80-acb9-11ea-8f6a-d962144b2e41.png" width="150px">](https://github.com/kRysTasis)
-[<img src="https://user-images.githubusercontent.com/39425808/84468489-eccce680-acb9-11ea-8d16-94b22aa796a1.png" width="150px">](https://github.com/shutotakizawa)
+[<img src="https://user-images.githubusercontent.com/39425808/84468489-eccce680-acb9-11ea-8d16-94b22aa796a1.png" width="150px">](https://github.com/yoshihiko555)
