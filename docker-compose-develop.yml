@@ -3,7 +3,7 @@ services:
   coopy:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile_dev
     image: coopy-dev
     container_name: coopy-dev
     env_file:
