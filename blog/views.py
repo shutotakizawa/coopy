@@ -1191,7 +1191,6 @@ class AccessAnalyticsView(LoginRequiredMixin, generic.TemplateView):
 
 class CategoryListView(BaseListView):
     template_name = 'blog/category_list.html'
-    model = Post
     paginate_by = 6
 
     def get_context_data(self, **kwargs):
@@ -1207,6 +1206,7 @@ class CategoryListView(BaseListView):
 
         queryset = self.base_queryset()
         queryset = Post.objects.filter(category__name=self.kwargs['str'])
+        logger.info(queryset)
 
         return queryset
 
